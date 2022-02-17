@@ -1,0 +1,78 @@
+body{
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+
+.heading{
+    margin-left: 5rem;
+    font-size: 2rem;
+}
+.links li{
+    display: inline-block;
+    margin: 1rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.links li :hover{
+    color:rgb(0, 102, 255) ;
+}
+.links {
+    margin-right:20rem;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.button{
+width: 90px;
+border: 1px solid black ;
+padding: 10px;
+color: white;
+background-color:rgb(21, 21, 63);
+border-radius: 5px;
+position:absolute;
+right:10rem;
+top: 5%;;
+}
+.content{
+    margin-left: 30rem;
+    margin-top: 5rem;
+}
+h1{
+    color: rgb(21, 21, 63);
+    font-size: 3rem;
+}
+p{
+    color:rgb(21, 21, 63) ;
+    margin-left:4rem;
+}
+button{
+    width: 90px;
+border: 1px solid black;
+padding: 10px;
+color: white;
+background-color:rgb(21, 21, 63);
+border-radius: 5px;
+margin-left: 7rem;
+}
+.box img{
+    height:1.5rem;
+    width:3rem;
+    color:rgb(21, 21, 63) ;
+}
+.box{
+    margin-top: 5rem;
+width: 15rem;
+border: 2px solid beige;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding: 25px;
+margin-left: 2rem;
+float: left;
+}
+.box h2{
+    color:  rgb(21, 21, 63);
+}
+.box p{
+    margin: 0%;
+    color:  rgb(21, 21, 63);
+}
