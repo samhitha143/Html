@@ -1,0 +1,49 @@
+body{
+    background-image: url(purple.jpg);
+}
+.form{
+    background-image: linear-gradient(to right,  rgb(32, 8, 32),rgba(255,0,0,0));
+    float: left;
+    padding: 4rem;
+    margin-left: 6rem;
+    
+}
+.head{
+    color:white;
+    text-align: center; 
+}
+input{
+    background-color:aliceblue;
+    padding: .7rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display:block;
+    margin: 1rem;
+    outline: none;
+}
+input[type="text"]::placeholder{
+    text-align:center;
+}
+input[type="number"]::placeholder{
+    text-align:center;
+}
+input[type="password"]::placeholder{
+    text-align:center;
+}
+input[type="email"]::placeholder{
+    text-align:center;
+}
+input[type="submit"]::placeholder{
+    text-align:center;
+}
+input[type="submit"]{
+    padding-left: 8rem;
+    padding-right: 7.5rem;
+    background-color: rgb(36, 3, 37);
+    color: white;
+    font-size: 1rem;
+}
+input[type="submit"]:hover{
+    background-color: rgb(22, 3, 22);
+
+}
