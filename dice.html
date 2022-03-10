@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #number{
+        font-size: 30px;
+    }
+    button{
+        height: 2rem;
+        width:3rem;
+    }
+</style>
+<body>
+    <p id="number"> </p>
+    <button onclick="dice()">spin</button>
+    <script>
+        
+        function dice(){
+         document.getElementById("number").innerHTML=Math.ceil(Math.random()*6);
+        if(number.innerHTML== 6){
+            alert(`number is: ${number.innerHTML}` + ", spin it again")
+        }
+        else if(number.innerHTML == 1){
+            alert(`number is: ${number.innerHTML}` + ", spin one more time")
+        }
+        else{
+            alert(`number is: ${number.innerHTML}` + ", only one chance") 
+        }
+    }
+        
+        
+    </script>   
+</body>
+
+</html>
